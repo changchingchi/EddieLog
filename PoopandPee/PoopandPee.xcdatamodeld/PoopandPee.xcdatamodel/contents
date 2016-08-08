@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15F34" minimumToolsVersion="Xcode 7.3">
+    <entity name="Devices" syncable="YES">
+        <attribute name="breastfeeding" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="milkvolume" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pee" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="poop" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="pump" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Devices" positionX="-63" positionY="-18" width="128" height="150"/>
+    </elements>
+</model>

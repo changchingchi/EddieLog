@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E912B7B91D5436240037403C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E912B7B81D5436240037403C /* Main.storyboard */; };
+		E98C63041D5419A30033038E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98C63031D5419A30033038E /* Images.xcassets */; };
+		E99A07F01D4DB09E00BD244C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E99A07EF1D4DB09E00BD244C /* main.m */; };
+		E99A07F31D4DB09E00BD244C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E99A07F21D4DB09E00BD244C /* AppDelegate.m */; };
+		E99A07FC1D4DB09E00BD244C /* PoopandPee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E99A07FA1D4DB09E00BD244C /* PoopandPee.xcdatamodeld */; };
+		E99A07FE1D4DB09F00BD244C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E99A07FD1D4DB09F00BD244C /* Assets.xcassets */; };
+		E99A080C1D4DB09F00BD244C /* PoopandPeeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E99A080B1D4DB09F00BD244C /* PoopandPeeTests.m */; };
+		E99A08171D4DB09F00BD244C /* PoopandPeeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E99A08161D4DB09F00BD244C /* PoopandPeeUITests.m */; };
+		E99A08261D4DB90A00BD244C /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E99A08251D4DB90A00BD244C /* TableViewController.m */; };
+		E99A08281D4DB96D00BD244C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99A08271D4DB96D00BD244C /* CoreData.framework */; };
+		E99A082B1D4DD09100BD244C /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E99A082A1D4DD09100BD244C /* AddViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E99A08081D4DB09F00BD244C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E99A07E31D4DB09E00BD244C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99A07EA1D4DB09E00BD244C;
+			remoteInfo = PoopandPee;
+		};
+		E99A08131D4DB09F00BD244C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E99A07E31D4DB09E00BD244C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E99A07EA1D4DB09E00BD244C;
+			remoteInfo = PoopandPee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E912B7B81D5436240037403C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		E98C63031D5419A30033038E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E99A07EB1D4DB09E00BD244C /* PoopandPee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoopandPee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99A07EF1D4DB09E00BD244C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E99A07F11D4DB09E00BD244C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E99A07F21D4DB09E00BD244C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E99A07FB1D4DB09E00BD244C /* PoopandPee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PoopandPee.xcdatamodel; sourceTree = "<group>"; };
+		E99A07FD1D4DB09F00BD244C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E99A08021D4DB09F00BD244C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E99A08071D4DB09F00BD244C /* PoopandPeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoopandPeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99A080B1D4DB09F00BD244C /* PoopandPeeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoopandPeeTests.m; sourceTree = "<group>"; };
+		E99A080D1D4DB09F00BD244C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E99A08121D4DB09F00BD244C /* PoopandPeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoopandPeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99A08161D4DB09F00BD244C /* PoopandPeeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoopandPeeUITests.m; sourceTree = "<group>"; };
+		E99A08181D4DB09F00BD244C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E99A08241D4DB90A00BD244C /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		E99A08251D4DB90A00BD244C /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
+		E99A08271D4DB96D00BD244C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E99A08291D4DD09100BD244C /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		E99A082A1D4DD09100BD244C /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E99A07E81D4DB09E00BD244C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99A08281D4DB96D00BD244C /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99A08041D4DB09F00BD244C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99A080F1D4DB09F00BD244C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E99A07E21D4DB09E00BD244C = {
+			isa = PBXGroup;
+			children = (
+				E99A08271D4DB96D00BD244C /* CoreData.framework */,
+				E99A07ED1D4DB09E00BD244C /* PoopandPee */,
+				E99A080A1D4DB09F00BD244C /* PoopandPeeTests */,
+				E99A08151D4DB09F00BD244C /* PoopandPeeUITests */,
+				E99A07EC1D4DB09E00BD244C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E99A07EC1D4DB09E00BD244C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E99A07EB1D4DB09E00BD244C /* PoopandPee.app */,
+				E99A08071D4DB09F00BD244C /* PoopandPeeTests.xctest */,
+				E99A08121D4DB09F00BD244C /* PoopandPeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E99A07ED1D4DB09E00BD244C /* PoopandPee */ = {
+			isa = PBXGroup;
+			children = (
+				E912B7B81D5436240037403C /* Main.storyboard */,
+				E99A08241D4DB90A00BD244C /* TableViewController.h */,
+				E99A08251D4DB90A00BD244C /* TableViewController.m */,
+				E99A07F11D4DB09E00BD244C /* AppDelegate.h */,
+				E99A07F21D4DB09E00BD244C /* AppDelegate.m */,
+				E99A07FD1D4DB09F00BD244C /* Assets.xcassets */,
+				E99A08021D4DB09F00BD244C /* Info.plist */,
+				E99A07FA1D4DB09E00BD244C /* PoopandPee.xcdatamodeld */,
+				E99A07EE1D4DB09E00BD244C /* Supporting Files */,
+				E99A08291D4DD09100BD244C /* AddViewController.h */,
+				E99A082A1D4DD09100BD244C /* AddViewController.m */,
+				E98C63031D5419A30033038E /* Images.xcassets */,
+			);
+			path = PoopandPee;
+			sourceTree = "<group>";
+		};
+		E99A07EE1D4DB09E00BD244C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E99A07EF1D4DB09E00BD244C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E99A080A1D4DB09F00BD244C /* PoopandPeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E99A080B1D4DB09F00BD244C /* PoopandPeeTests.m */,
+				E99A080D1D4DB09F00BD244C /* Info.plist */,
+			);
+			path = PoopandPeeTests;
+			sourceTree = "<group>";
+		};
+		E99A08151D4DB09F00BD244C /* PoopandPeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E99A08161D4DB09F00BD244C /* PoopandPeeUITests.m */,
+				E99A08181D4DB09F00BD244C /* Info.plist */,
+			);
+			path = PoopandPeeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E99A07EA1D4DB09E00BD244C /* PoopandPee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E99A081B1D4DB09F00BD244C /* Build configuration list for PBXNativeTarget "PoopandPee" */;
+			buildPhases = (
+				E99A07E71D4DB09E00BD244C /* Sources */,
+				E99A07E81D4DB09E00BD244C /* Frameworks */,
+				E99A07E91D4DB09E00BD244C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoopandPee;
+			productName = PoopandPee;
+			productReference = E99A07EB1D4DB09E00BD244C /* PoopandPee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E99A08061D4DB09F00BD244C /* PoopandPeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E99A081E1D4DB09F00BD244C /* Build configuration list for PBXNativeTarget "PoopandPeeTests" */;
+			buildPhases = (
+				E99A08031D4DB09F00BD244C /* Sources */,
+				E99A08041D4DB09F00BD244C /* Frameworks */,
+				E99A08051D4DB09F00BD244C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E99A08091D4DB09F00BD244C /* PBXTargetDependency */,
+			);
+			name = PoopandPeeTests;
+			productName = PoopandPeeTests;
+			productReference = E99A08071D4DB09F00BD244C /* PoopandPeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E99A08111D4DB09F00BD244C /* PoopandPeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E99A08211D4DB09F00BD244C /* Build configuration list for PBXNativeTarget "PoopandPeeUITests" */;
+			buildPhases = (
+				E99A080E1D4DB09F00BD244C /* Sources */,
+				E99A080F1D4DB09F00BD244C /* Frameworks */,
+				E99A08101D4DB09F00BD244C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E99A08141D4DB09F00BD244C /* PBXTargetDependency */,
+			);
+			name = PoopandPeeUITests;
+			productName = PoopandPeeUITests;
+			productReference = E99A08121D4DB09F00BD244C /* PoopandPeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E99A07E31D4DB09E00BD244C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Chi, Chang(AWF)";
+				TargetAttributes = {
+					E99A07EA1D4DB09E00BD244C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XEZPTDFLAS;
+						DevelopmentTeamName = "changching chi";
+					};
+					E99A08061D4DB09F00BD244C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E99A07EA1D4DB09E00BD244C;
+					};
+					E99A08111D4DB09F00BD244C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E99A07EA1D4DB09E00BD244C;
+					};
+				};
+			};
+			buildConfigurationList = E99A07E61D4DB09E00BD244C /* Build configuration list for PBXProject "PoopandPee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E99A07E21D4DB09E00BD244C;
+			productRefGroup = E99A07EC1D4DB09E00BD244C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E99A07EA1D4DB09E00BD244C /* PoopandPee */,
+				E99A08061D4DB09F00BD244C /* PoopandPeeTests */,
+				E99A08111D4DB09F00BD244C /* PoopandPeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E99A07E91D4DB09E00BD244C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98C63041D5419A30033038E /* Images.xcassets in Resources */,
+				E912B7B91D5436240037403C /* Main.storyboard in Resources */,
+				E99A07FE1D4DB09F00BD244C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99A08051D4DB09F00BD244C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99A08101D4DB09F00BD244C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E99A07E71D4DB09E00BD244C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99A082B1D4DD09100BD244C /* AddViewController.m in Sources */,
+				E99A07F31D4DB09E00BD244C /* AppDelegate.m in Sources */,
+				E99A07FC1D4DB09E00BD244C /* PoopandPee.xcdatamodeld in Sources */,
+				E99A07F01D4DB09E00BD244C /* main.m in Sources */,
+				E99A08261D4DB90A00BD244C /* TableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99A08031D4DB09F00BD244C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99A080C1D4DB09F00BD244C /* PoopandPeeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99A080E1D4DB09F00BD244C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99A08171D4DB09F00BD244C /* PoopandPeeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E99A08091D4DB09F00BD244C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E99A07EA1D4DB09E00BD244C /* PoopandPee */;
+			targetProxy = E99A08081D4DB09F00BD244C /* PBXContainerItemProxy */;
+		};
+		E99A08141D4DB09F00BD244C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E99A07EA1D4DB09E00BD244C /* PoopandPee */;
+			targetProxy = E99A08131D4DB09F00BD244C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E99A08191D4DB09F00BD244C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E99A081A1D4DB09F00BD244C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E99A081C1D4DB09F00BD244C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PoopandPee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = paypal.PoopandPee2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E99A081D1D4DB09F00BD244C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PoopandPee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = paypal.PoopandPee2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E99A081F1D4DB09F00BD244C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PoopandPeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = paypal.PoopandPeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoopandPee.app/PoopandPee";
+			};
+			name = Debug;
+		};
+		E99A08201D4DB09F00BD244C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PoopandPeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = paypal.PoopandPeeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoopandPee.app/PoopandPee";
+			};
+			name = Release;
+		};
+		E99A08221D4DB09F00BD244C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PoopandPeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = paypal.PoopandPeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PoopandPee;
+			};
+			name = Debug;
+		};
+		E99A08231D4DB09F00BD244C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PoopandPeeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = paypal.PoopandPeeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PoopandPee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E99A07E61D4DB09E00BD244C /* Build configuration list for PBXProject "PoopandPee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E99A08191D4DB09F00BD244C /* Debug */,
+				E99A081A1D4DB09F00BD244C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E99A081B1D4DB09F00BD244C /* Build configuration list for PBXNativeTarget "PoopandPee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E99A081C1D4DB09F00BD244C /* Debug */,
+				E99A081D1D4DB09F00BD244C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E99A081E1D4DB09F00BD244C /* Build configuration list for PBXNativeTarget "PoopandPeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E99A081F1D4DB09F00BD244C /* Debug */,
+				E99A08201D4DB09F00BD244C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E99A08211D4DB09F00BD244C /* Build configuration list for PBXNativeTarget "PoopandPeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E99A08221D4DB09F00BD244C /* Debug */,
+				E99A08231D4DB09F00BD244C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E99A07FA1D4DB09E00BD244C /* PoopandPee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E99A07FB1D4DB09E00BD244C /* PoopandPee.xcdatamodel */,
+			);
+			currentVersion = E99A07FB1D4DB09E00BD244C /* PoopandPee.xcdatamodel */;
+			path = PoopandPee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E99A07E31D4DB09E00BD244C /* Project object */;
+}
